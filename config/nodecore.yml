@@ -73,30 +73,11 @@ upstream-config:
         - type: json-rpc
           url: https://bnb.api.onfinality.io/public
 
-    # ~0.729s
-    - id: 1rpc-bsc
-      chain: bsc
-      connectors:
-        - type: json-rpc
-          url: https://1rpc.io/bnb
-
-    - id: llamarpc-bsc
-      chain: bsc
-      connectors:
-        - type: json-rpc
-          url: https://binance.llamarpc.com
-
     - id: bnbchain-dataseed
       chain: bsc
       connectors:
         - type: json-rpc
           url: https://bsc-dataseed.bnbchain.org
-
-    - id: meowrpc-bsc
-      chain: bsc
-      connectors:
-        - type: json-rpc
-          url: https://bsc.meowrpc.com
 
     - id: defibit-dataseed1
       chain: bsc
@@ -169,12 +150,6 @@ upstream-config:
       connectors:
         - type: json-rpc
           url: https://bsc.blockrazor.xyz
-
-    - id: pocket-bsc
-      chain: bsc
-      connectors:
-        - type: json-rpc
-          url: https://bsc.api.pocket.network
 
     - id: fastnode-bsc
       chain: bsc

@@ -1,0 +1,11 @@
+server:
+  port: 9090
+  metrics-port: 9093
+
+upstream-config:
+  upstreams:
+    - id: drpc-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc.drpc.org

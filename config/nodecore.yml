@@ -4,13 +4,6 @@ server:
 
 upstream-config:
   upstreams:
-    # ~0.088s - fastest
-    - id: drpc-bsc
-      chain: bsc
-      connectors:
-        - type: json-rpc
-          url: https://bsc.drpc.org
-
     # ~0.205s
     - id: bloxroute-bsc
       chain: bsc

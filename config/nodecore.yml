@@ -139,12 +139,6 @@ upstream-config:
         - type: json-rpc
           url: https://rpc-bsc.48.club
 
-    - id: tatum-bsc
-      chain: bsc
-      connectors:
-        - type: json-rpc
-          url: https://bsc-mainnet.gateway.tatum.io
-
     - id: blockrazor-bsc
       chain: bsc
       connectors:

@@ -194,3 +194,9 @@ upstream-config:
       connectors:
         - type: json-rpc
           url: https://rpc.sentio.xyz/bsc
+
+    - id: publicnode-bsc2
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc.publicnode.com

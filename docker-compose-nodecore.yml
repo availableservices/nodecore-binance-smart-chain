@@ -4,7 +4,7 @@ services:
     container_name: nodecore
     restart: unless-stopped
     ports:
-      - "9090:9090"
+      - 9090
     volumes:
       - ./config/nodecore.yml:/app/nodecore.yml
     networks:

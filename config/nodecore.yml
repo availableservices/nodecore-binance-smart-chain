@@ -4,8 +4,193 @@ server:
 
 upstream-config:
   upstreams:
+    # ~0.088s - fastest
     - id: drpc-bsc
       chain: bsc
       connectors:
         - type: json-rpc
           url: https://bsc.drpc.org
+
+    # ~0.205s
+    - id: bloxroute-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc.rpc.blxrbdn.com
+
+    # ~0.214s
+    - id: publicnode-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-rpc.publicnode.com
+
+    # ~0.319s
+    - id: subquery-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bnb.rpc.subquery.network/public
+
+    # ~0.454s
+    - id: 48club-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://0.48.club
+
+    # ~0.584s
+    - id: zan-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://api.zan.top/bsc-mainnet
+
+    # ~0.585s - official BNB Chain dataseed
+    - id: bnbchain-dataseed1
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed1.bnbchain.org
+
+    - id: bnbchain-dataseed2
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed2.bnbchain.org
+
+    # ~0.628s
+    - id: blastapi-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-mainnet.public.blastapi.io
+
+    # ~0.635s
+    - id: nodies-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://binance-smart-chain-public.nodies.app
+
+    # ~0.728s
+    - id: onfinality-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bnb.api.onfinality.io/public
+
+    # ~0.729s
+    - id: 1rpc-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://1rpc.io/bnb
+
+    - id: llamarpc-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://binance.llamarpc.com
+
+    - id: bnbchain-dataseed
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed.bnbchain.org
+
+    - id: meowrpc-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc.meowrpc.com
+
+    - id: defibit-dataseed1
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed1.defibit.io
+
+    - id: defibit-dataseed2
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed2.defibit.io
+
+    - id: defibit-dataseed3
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed3.defibit.io
+
+    - id: defibit-dataseed4
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed4.defibit.io
+
+    - id: ninicoin-dataseed2
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed2.ninicoin.io
+
+    - id: ninicoin-dataseed3
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed3.ninicoin.io
+
+    - id: ninicoin-dataseed4
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed4.ninicoin.io
+
+    - id: bnbchain-dataseed3
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed3.bnbchain.org
+
+    - id: bnbchain-dataseed4
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-dataseed4.bnbchain.org
+
+    - id: 48club-rpc-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://rpc-bsc.48.club
+
+    - id: tatum-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc-mainnet.gateway.tatum.io
+
+    - id: blockrazor-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc.blockrazor.xyz
+
+    - id: pocket-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://bsc.api.pocket.network
+
+    - id: fastnode-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://public-bsc-mainnet.fastnode.io
+
+    - id: sentio-bsc
+      chain: bsc
+      connectors:
+        - type: json-rpc
+          url: https://rpc.sentio.xyz/bsc
